@@ -1,0 +1,103 @@
+body {
+    background-image: url("../images/background.jpg");
+    font-family: 'Rubik', sans-serif;
+    background-color: floralwhite;
+    font-size: 1em;
+}
+nav{
+    background-color: #756dff;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    border-radius: 0 0 1.5em 1.5em;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    display: block;
+    padding: .5cm;
+    text-decoration: none!important;
+}
+header nav ul li{
+    display: inline-block;
+    padding: .5cm;
+    text-decoration: none!important;
+}
+header nav ul li a{
+    display: block;
+    padding: 1.00em 0.9em;
+    color: #0b0d08;
+    text-decoration: none!important;
+}
+h1{
+	background-color: transparent;
+}
+h1, h2, h3{
+    text-decoration: none!important;
+    text-align: center;
+    position: relative;
+}
+p,li{
+    list-style: none;
+	text-align: center;
+	position: relative;      
+}
+ul,ol{  
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+p ~ p{
+    padding-top: 5px;
+}
+p {
+    display: block;
+    list-style: none;
+    margin-block-start: 1em;
+    font-weight: bold;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.first_page{
+    background-image: url("../images/resume_bi.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.second_page{
+    background-image: url("../images/cricket_bi.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+img{
+    height: 350px;
+    width: 500px;
+    margin: 3.0em auto;
+    display: block;
+    box-sizing: border-box;
+}
+iframe{
+    height: 300px;
+    width: 500px;
+    margin: 2.5em auto;
+    display: block;
+    box-sizing: border-box;
+}
+section{
+    padding: 10px 0;
+}
+section section{
+    padding: 0 10px;
+}
+main{
+    padding: 0 10px;
+}
+footer{
+    clear: none;
+    background-color: #f2f5f5;
+}
